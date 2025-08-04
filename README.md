@@ -18,9 +18,6 @@ Click below to view the portfolio:
 
 Just open it in your browser to explore the magic.
 
-## 💡 Why I Built This
-
-I'm currently a Medical Laboratory Sciences student with a growing passion for tech. This portfolio merges creativity and logic — a space to express my learning, skills, and dreams.
 
 ## 🔮 What's Inside?
 
@@ -55,7 +52,7 @@ This site is **my story**, my **style**, and my **mission** as a tech enthusiast
 - Blockchain-themed banner  
 - Easy navigation  
 
-- Email: [machajose254@gmail.com](mailto:machajose254@gmail.com)
+- Email: [machajose608@gmail.com](mailto:machajose@gm608ail.com)
 - GitHub: [@Machajose](https://github.com/Machajose)
 
 ---
