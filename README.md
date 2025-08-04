@@ -50,7 +50,7 @@ Open the `index.html` file in your browser to view the website.
 
 ## 📫 Contact Me
 
-- 📧 Email: [machajose254@gmail.com](mailto:machajose254@gmail.com)  
+- 📧 Email: [machajose608@gmail.com](mailto:machajose608@gmail.com)  
 - 🐙 GitHub: [Machajose](https://github.com/Machajose)
 
 ---
