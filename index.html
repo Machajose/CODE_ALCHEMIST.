@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jose's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    header.hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+        url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+    }
+
+    :root {
+      --primary-color: #0ff;
+      --bg-color: #0a0a23;
+      --text-color: #fff;
+      --accent-color: #f0f;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(circle at 50% 20%, #111 0%, #0a0a23 100%);
+      color: var(--text-color);
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      padding: 0 1rem;
+    }
+
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn ease-in 1.5s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .slide-up {
+      opacity: 0;
+      transform: translateY(40px);
+      animation: slideUp 1.5s ease-out forwards;
+    }
+
+    @keyframes slideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    header.hero h1 {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+      text-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color);
+      animation: flicker 3s infinite;
+    }
+
+    @keyframes flicker {
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+      }
+      20%, 22%, 24%, 55% {
+        opacity: 0.4;
+      }
+    }
+
+    header.hero p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: var(--text-color);
+    }
+
+    section {
+      margin: 3rem 0;
+    }
+
+    h2 {
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    ul li {
+      margin-left: 1.5rem;
+      list-style-type: square;
+    }
+
+    .project-card {
+      background-color: #111;
+      border: 1px solid var(--accent-color);
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      box-shadow: 0 0 15px var(--accent-color);
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-color);
+    }
+
+    .glow-btn {
+      background: transparent;
+      color: var(--primary-color);
+      border: 1px solid var(--primary-color);
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-shadow: 0 0 5px var(--primary-color);
+      box-shadow: 0 0 5px var(--primary-color);
+      transition: all 0.3s ease;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+
+    .glow-btn:hover {
+      background-color: var(--primary-color);
+      color: #000;
+      text-shadow: none;
+      box-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color);
+    }
+
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid var(--primary-color);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header.hero h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero fade-in slide-up">
+    <h1>Hello, I'm Jose</h1>
+    <p>Welcome to The Code Alchemist: oh yes! My own portfolio has a name! A digital space where innovation and design are counterparts. Built to impress. Built just for you! Built from the heart. Whether you wanna build interfaces or write logic that works - I aim to make people have digital experiences that are effortless and heartwarming. I believe that hackathons are not just competitions but places of growth, push limits; places code and creativity are put to the test. And yes; this is my playground!</p>
+    <p>Turning code into creativity & impact.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Passion is my middle name; and so it is when it comes to coding. I love all sorts of languages; as a musician I understand that languages are meant to communicate effectively and just as music is sweet digital experiences too should be non-flawed, written in logic. Like melodies clean code flows—expressive and intentional. It's not just about the code; there should be harmony in the code. Symphony from frontend to backend. Whether it's just writing logic or simple interfaces, I code with rhythm, reason and soul.</p>
+    </section>
+
+    <section id="education">
+      <h2>Educational Background</h2>
+      <p>I am currently pursuing a degree in Medical Laboratory Sciences—a field rooted in precision, discovery and impacts. In my journey I built a keen interest for coding which I want to use to my advantage to build revolutional digital architecture for the Medical Industry. My curiosity further extends to the World of Web 3 and Blockchain where I see opportunity to revolutionalize medical industry stores, shares and secure data. With each line of code my vision becomes realler where I will bridge the gap between healthcare and technology; not just diagnose and treat but also code and transform.</p>
+    </section>
+
+    <section id="languages">
+      <h2>Programming Languages</h2>
+      <p>I have to admit that I am new to this world as one who is interested in the vast world of Software Engineering. Multiple languages but all telling the same story; I have so far used HTML5 and CSS to create recipe websites and Travel agency pages. The pages were superb showcasing order, flow and enthusiasm; I am a builder at heart and so I know true legacy is beyond code where you touch people's hearts with flawless digital experiences. Here are the languages I have learnt so far:</p>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Python (Basic)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Recipe Website</h3>
+        <p>A clean and engaging recipe site made with HTML & CSS.</p>
+        <a href="https://github.com/Machajose/My-Recipe" class="glow-btn" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>Travel Agency Page</h3>
+        <p>A travel landing page project built using only HTML and CSS.</p>
+        <a href="https://www.freecodecamp.org/learn/full-stack-developer/lab-travel-agency-page/build-a-travel-agency-page" class="glow-btn" target="_blank">View Project</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Let's collaborate and create something amazing together. Reach me at:</p>
+      <ul>
+        <li>Email: <a href="mailto:machajose254@gmail.com">machajose254@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/Machajose" target="_blank">Machajose</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Jose's Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
